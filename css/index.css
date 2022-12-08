@@ -60,5 +60,11 @@ p {
   background: black;
 }
 
+.customNav a {
+  color: white !important;
+}
 
+.navCTA {
+  font-size: 15px;
+}
 
