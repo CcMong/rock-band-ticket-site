@@ -21,6 +21,8 @@ p {
   font-family: 'Jura', sans-serif;
 }
 
+/*Start styling the nav bar*/
+
 .customNav {
   position: fixed;
   width: 100%;
@@ -43,4 +45,20 @@ p {
 .nav-item {
   margin: 0px 15px;
 }
+
+/*Customise the dropdown menu*/
+
+.dropdown-menu {
+  background: url("../images/transparency.png");
+  background-color: transparent !important;
+  background-size: cover;
+}
+
+.dropdown-item:focus, .dropdown-item:hover {
+  color: #16181b;
+  text-decoration: none;
+  background: black;
+}
+
+
 
