@@ -68,3 +68,18 @@ p {
   font-size: 15px;
 }
 
+/*Jumbotron*/
+
+.jumbotron {
+  background-image: url("../images/rockOn_dark.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  height: calc(100vh - 25px); /*This is what makes the jumbotron take up the whole screen apart from the 25px space reserved for the navbar*/
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
